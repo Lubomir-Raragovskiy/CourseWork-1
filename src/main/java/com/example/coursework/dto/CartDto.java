@@ -1,0 +1,12 @@
+package com.example.coursework.dto;
+
+import lombok.Builder;
+import lombok.Value;
+
+@Value
+@Builder
+public class CartDto {
+     String id;
+     String totalCost;
+     String totalAmount;
+}
